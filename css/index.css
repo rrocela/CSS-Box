@@ -1,0 +1,134 @@
+/*CSS Resets*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+	padding: 1rem;
+	margin-bottom: 2rem;
+	border-bottom: 1px solid gray;
+
+}
+
+nav > ul {
+		list-style-type: none;
+}
+
+nav .nav-logo, nav .nav{
+	margin: 0.5rem;
+	display: inline;
+} 
+
+/*Intro Section*/
+#intro{
+
+	padding: 2rem 10% 3rem;
+
+	text-align: center;
+}
+
+#intro .header, #intro p{
+	margin-bottom: 1rem ;
+}
+
+#intro button{
+	color: white;
+	background-color: #c2195b;
+	padding: 1rem;
+	border-radius: 25px;
+	font-weight: bold;
+	font-size: 1rem;
+
+}
+
+/*End of Intro Section*/
+
+/*Succeed Info*/
+
+
+
+#succeed-info{
+
+	padding: 2rem 10% 3rem;
+
+}
+
+#succeed-info .header{
+	margin-bottom: 1rem ;
+
+	text-align: center;
+}
+
+#succeed-info h3{
+	margin-bottom: 1rem;
+
+	text-align: center;
+}
+
+#succeed-info .card{
+	display: inline-block;
+	width: 33%;
+	vertical-align: top;
+	min-height: 150px;
+	padding: 25px;
+}
+
+/*End of Succeed Info*/
+
+/* Start pre-footer */
+
+#pre-footer{
+	padding: 2rem 10% 3rem;
+	background-color: #092140;
+	color: white;
+}
+
+#pre-footer .card-footer{
+	display: inline-block;
+	width: 24%;
+	vertical-align: top;
+	min-height: 150px;
+	padding: 25px;
+}
+
+#pre-footer .card-footer h3{
+	margin-bottom: 1rem;
+}
+
+
+
+/* End pre-footer */
+
+footer {
+
+	padding: 0.7 rem;
+	text-align: center;
+
+}
+
+footer span{
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
